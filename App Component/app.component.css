@@ -1,0 +1,16 @@
+.active-link {
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+.top-bar {
+    background-color: black; 
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  a {
+    text-decoration: none; 
+    margin-right: 10px; /* Adjust spacing between links */
+    color: white; /* Set default text color */
+  }
+  
