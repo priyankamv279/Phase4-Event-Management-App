@@ -1,0 +1,54 @@
+.container {
+    background-image: url('https://img.freepik.com/premium-photo/sky-night_646510-7882.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700265600&semt=ais');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    position: relative; /* Ensure it starts from the top */
+    top: -35px; /* Position from the top */    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .view-contain {
+    width: 70%;
+    padding: 20px;
+    background-color: #e0d5d5;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Existing styles for .container and .view-contain */
+
+.view-contain button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-contain button[type="submit"] {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .view-contain button[type="button"],
+  .view-contain button:not([type]) {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .view-contain button:hover {
+    opacity: 0.8;
+  }
+  .view-contain form input[type="email"] {
+    width: 200px; 
+  }  
