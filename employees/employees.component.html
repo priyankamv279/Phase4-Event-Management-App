@@ -1,0 +1,28 @@
+<br><br>
+<div class="container"><br><br><br><br><br>
+  <button mat-raised-button color="primary" routerLink="/addemployee" class="mat-button">Add employee</button>
+
+  <table border="1" class="table-b">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.first_name }}</td>
+        <td>{{ employee.last_name }}</td>
+        <td>{{ employee.email }}</td>
+        <!-- View button with routerLink -->
+        <td>
+          <button [routerLink]="'/view/' + employee.id" class="table-button">view</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
