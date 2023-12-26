@@ -1,0 +1,22 @@
+
+
+.container {
+    text-align: center; /* Center-align content */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj7emkxfyB-DOexTHJdfe5PFDW0JDmPiqHxw&usqp=CAU');
+    background-size: cover; /* Adjusts the background image to cover the entire body */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Example font family */
+    width: auto; 
+    height: 800px;
+  }
+  
+  .center-image {
+    display: block; /* Set the image to display as a block element */
+    margin: 0 auto; /* Set left and right margins to auto for horizontal centering */
+  }
+
+  .login-link{
+        color: black;
+    text-decoration: none; /* Remove underline */
+  }
+  
