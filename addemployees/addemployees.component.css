@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    background-image: url('https://img.freepik.com/premium-photo/night-sky-is-dark-blue-color-with-clouds-stars_662214-55728.jpg?w=360');
+    background-size: contain;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Ensure it starts from the top */
+  top: -15px; /* Position from the top */
+  }
+
+.add-form{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 50px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+
+}
+
+.button-click{
+    background-color: #da38d2; 
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button-click:hover{
+    background-color: #5a1a35; 
+
+}
